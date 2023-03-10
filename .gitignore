@@ -1,3 +1,4 @@
 /django_zappa-venv/
 
 .idea
+*/__pycache__/
