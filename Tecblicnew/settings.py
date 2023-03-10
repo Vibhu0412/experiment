@@ -186,6 +186,8 @@ EMAIL_HOST_PASSWORD='C@ntbre@k@#7459'
 
 
 # Custom Message Showing DEV
+# Custom Message Showing DEV1
+# Custom Message Showing DEV2
 MESSAGE_TAGS = {
         messages.DEBUG: 'alert-secondary',
         messages.INFO: 'alert-info',
