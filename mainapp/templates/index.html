@@ -1,0 +1,333 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class="main-banner">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="banner-text ">
+                                <h1 class="float-center text-white"> RESEARCH. INNOVATE. <br>
+                                    DELIGHT. SUSTAIN.</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </div>
+
+
+    <div class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pe-4 ps-3">
+                     <h4  style="font-weight: 700; ">Our Vision</h4>
+                    
+                    <hr width="130px" style="height: 3px;color: #000; margin-top: 5px;">
+                    <P>Tecblic aims to be a global leader in providing well-researched solutions and products that assist in automating businesses globally. Our vision is to be one of the largest employers in the world.</P>
+                </div>
+                <div class="col-lg-4 pe-4 ps-3">
+                    <h4 style="font-weight: 700;">Our Mission</h4>
+                    <hr width="150px" style="height: 3px;color: #000; margin-top: 5px;">
+                    <P>We are an innovation-driven company with a mission to build revolutionary products and solutions by nurturing a workplace culture where innovations and excellence thrive, empowering clients to live the future in the present.
+
+
+                    </P>
+                </div>
+                <div class="col-lg-4 pe-4 ps-3">
+                    <h4 style="font-weight: 700;">Our Values </h4>
+                    <hr width="140px" style="height: 3px;color: #000; margin-top: 5px;">
+                    <P>We are a unique blend of vibrant and talented individuals united over a commitment to creating sustainable and innovation-driven solutions. We value our customers and deliver quality on time. Tecblic’s values lie in its people.
+
+
+
+                        .</P>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section class=" " style="background-color: #ECECEC; padding-top: 40px;padding-bottom: 40px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <h4 style="font-weight: 700;">About Tecblic</h4>
+                    <hr width="170px" style="height: 3px;color: #000; margin-top: 5px;">
+                    <h3 class=" mb-2">Innovation is in our DNA</h3>
+                    <p>At Tecblic, we assist organizations in taking a digital transformation leap by building
+                        sustainable technological support mechanisms and innovative business transformations.</P>
+
+                    <P> We are passionate about creating your success story by transforming the organization’s digital
+                        identity and presence.</P>
+
+                    <P> Tecblic understands your business and churns out redefined business intelligence and data
+                        science solutions treating your entrepreneurial aspirations as core values.</P>
+
+                    <P> We are a technology company with human touch and excellence mastered. We are committed to
+                        transforming businesses by combining research, technology, and sustainable innovation that
+                        drives on-time deliveries.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section mt-3 pb-70">
+        <div class="container">
+            <h4 style="font-weight: 700; padding-top: 30px;">Blogs</h4>
+            <hr width="80px" style="height: 3px;color: #000; margin-top: 5px;">
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card shadow" style="border-radius: 10px;">
+                        <div class="blog-img">
+                            <a href="{% url 'blog-1' %}"><img src="static/images/img/blog/1.jpg" alt="blog image"
+                                    style="border-radius:10px;"></a>
+
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="{% url 'blog-1' %}">Odoo CRM Integration with Whatsapp Chatbot!</a></h3>
+                            <div class="post-info mt-lg-1">
+                                <img src="static/images/img/blog/author-1.png" alt="blog author">
+                                <a href="#">
+                                    <p>Tecblic<br>&nbsp;12-12-2022</p>
+                                </a>
+                                <a href="{% url 'blog-1' %}" class="blog-btn">
+                                    Read More
+                                    <i class="flaticon-right-chevron"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card shadow" style="border-radius: 10px;">
+                        <div class="blog-img">
+                            <a href="{% url 'aimlblog' %}"><img src="static/images/img/blog/2.png" alt="blog image"
+                                    style="border-radius:10px;"></a>
+
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="{% url 'aimlblog' %}">Glimpse to the future of AI/ML </a></h3>
+                            <div class="post-info mt-lg-5">
+                                <img src="static/images/img/blog/author-1.png" alt="blog author">
+                                <a href="{% url 'home' %}">
+                                    <p>Tecblic<br> &nbsp;12-12-2022</p>
+                                </a>
+                                <a href="{% url 'aimlblog' %}" class="blog-btn">
+                                    Read More
+                                    <i class="flaticon-right-chevron"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                    <div class="blog-card shadow" style="border-radius: 10px;">
+                        <div class="blog-img">
+                            <a href="{% url 'oddofuture' %}"><img src="static/images/img/blog/3.png" alt="blog image"
+                                    style="border-radius:10px;"></a>
+
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="{% url 'oddofuture' %}">Odoo 15: Future of business simplified </a>
+                            </h3>
+                            <div class="post-info align-bottom mt-lg-5">
+                                <img src="static/images/img/blog/author-1.png" alt="blog author">
+                                <a href="#" >
+                                    <p>Tecblic<br> &nbsp;12-12-2022</p>
+                                </a>
+
+                                <a href="{% url 'oddofuture' %}" class="blog-btn">
+                                    Read More
+                                    <i class="flaticon-right-chevron"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="col-lg-12 col-sm-12 mb-5">
+
+                <div class="row g-0  text-center">
+                    <div class="col-md-1 mb-md-0 p-md-4">
+                    </div>
+                    <div class="col-md-2 mb-md-0 p-md-4 mb-4">
+                        <img src="static/images/img/tools/python-icon.svg" class="w-100px" alt="...">
+                    </div>
+                    <div class="col-md-2 mb-md-0 p-md-4 mt-4">
+                        <img src="static/images/img/tools/dajngo.svg" class="w-100px" alt="...">
+                    </div>
+                    <div class="col-md-2 mb-md-0 p-md-4 mt-4">
+                        <img src="static/images/img/tools/golang-ar21.svg" class="w-100px" alt="...">
+                    </div>
+                    <div class="col-md-2 mb-md-0 p-md-4 mt-4 mb-4">
+                        <img src="static/images/img/tools/Odoo_logo.svg" class="w-100px" alt="...">
+                    </div>
+                    <div class="col-md-2 mb-md-0 p-md-4">
+                        <img src="static/images/img/tools/reactjs-icon.svg" class="w-100px" alt="...">
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" " style="background-color: #ECECEC; padding-top: 40px;padding-bottom: 40px;" id="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 col-12"></div>
+                        <div class="col-md-8 col-sm-12 col-12 float-center">
+                            <h2 class="text-left cus_clas">Subscribe to our newsletter</h2>
+                            <p class="text-left cus_clas mb-2">Track the latest of technologies with our newsletter.</p>
+                        </div> 
+                    </div>                
+
+                    <div class="col-lg-6 offset-lg-3 p-0">
+                        <form method="POST" class="d-flex p-2 bg-white" style="border-radius:5px;" >
+                            {% csrf_token %}
+                            <input type="hidden" name="form_type" value="subscribe_form">
+<!--                            {{ form.as_p }}-->
+                            <input type="email" class="form-control" placeholder="Emails are good start ..."
+                                name="sub_email"  autocomplete="off" style="border: none;">
+                            <button class="default-btn electronics-btn btn-dark"
+                                style="border-radius:5px; padding: 5px 30px 5px 30px;">
+                               <b> Submit </b>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 offset-lg-3 p-0" id="newsletter-msg">
+                        {%for message in messages %}
+                             {%if "subscribe_msg" in message.tags %}
+                                  <div class="container-fluid p-0">
+                                      <div class="alert {{ message.tags }} alert-dismissible text-center" role="alert" style="padding:5px 0px;">
+                                          {{ message }}
+                                      </div>
+                                    </div>
+                             {%endif%}
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter-section mb-5" id="contact-form">
+        <div class="container">
+
+            <h4 style="font-weight: 700; padding-top: 30px;">Contact us</h4>
+            <hr width="140px" style="height: 3px;color: #000; margin-top: 5px;">
+
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="mb-4 mt-2" style="font-family:Montserrat; font-weight: 600;">Let’s discuss the
+                                possibilities</h3>
+                            <form action="{% url 'home' %}" method="POST" class=" bg-white"
+                                style="border-radius:5px;">
+                                {% csrf_token %}
+                                <input type="hidden" name="form_type" value="contact_form">
+                                <div class="row">
+                                    <div class="col-md-6 mb-4">
+                                        <input type="text" class="form-control" placeholder="You are" name="name"
+                                            required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <input type="text" class="form-control" placeholder="Mobile" name="mobile"
+                                            required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <input type="text" class="form-control" placeholder="Email" name="email"
+                                            required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <input type="text" class="form-control" placeholder="Subject" name="subject"
+                                            required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-12 mb-4">
+                                        <textarea type="text" class="form-control" placeholder="Looking For"
+                                            name="message" rowspan="3" required autocomplete="off"></textarea>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <button  type="submit" class="btn btn-dark mb-3"
+                                        style="padding-left: 30px; padding-right: 30px;" id="contactus_submit" >
+                                        <b> Submit</b>
+                                    </button>
+                                    </div>
+                                    <div class="col-9" id="contact-msg">
+                                        {%for message in messages %}
+                                         {%if "contact_msg" in message.tags %}
+                                              <div class="container-fluid p-0">
+                                                  <div class="alert {{ message.tags }} alert-dismissible text-center" role="alert" style="padding:5px 0px;">
+
+                                                    {{ message }}
+                                                  </div>
+                                                </div>
+                                         {%endif%}
+                                    {%endfor%}
+                                    </div>
+                                </div>
+
+                                <div class=" text-dark">
+
+                                    <a href="mailto:info@tecblic.com" class="text-dark"
+                                        style="font-size: 15px; padding: 8px;"><i class="fa-solid fa-envelope"></i>
+                                        &nbsp; info@tecblic.com</a> <br class="hidden-xs hidden-md hidden-lg d-md-none">
+                                    <a href="tel:+91-7777907777" class="text-dark"
+                                        style="font-size: 15px; padding: 8px;"><i class="fa-solid fa-phone"></i> &nbsp;
+                                        +91-7777907777</a><br class="hidden-xs hidden-md hidden-lg hidden-xl d-md-none">
+                                    <a href="tel:+44 7947772257" class="text-dark"
+                                        style="font-size: 15px; padding: 8px;"><i class="fa-solid fa-phone"></i> &nbsp;
+                                        +44 7947772257</a>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="col-md-6" style="border-radius: 10px;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14686.259627080923!2d72.507459!3d23.0397423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21347c8e76fbf474!2sTecblic%20Private%20Limited!5e0!3m2!1sen!2sin!4v1646190404457!5m2!1sen!2sin"
+                                width="100%" height="100%" aria-hidden="false" tabindex="0" style="border-radius: 10px;"
+                                allowfullscreen="" loading="lazy"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% include 'footer.html' %}
+{% endblock content%}
+
+
+
+
+  

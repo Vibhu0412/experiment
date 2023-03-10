@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/animate.css">
+
+    <link rel="stylesheet" href="static/font/flaticon.css">
+
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="static/css/meanmenu.css">
+
+
+
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <title>Tecblic</title>
+
+    <link rel="icon" type="image/png" href="static/images/img/favicon.png">
+</head>
+
+
+<div class="navbar-area">
+    <div class="mobile-nav">
+        <a href="{% url 'home' %}" class="logo">
+            <img src="static/images/img/logo-2.png" alt="logo">
+        </a>
+    </div>
+    <div class="main-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="{% url 'home' %}">
+                    <img src="static/images/img/logo.png" alt="logo">
+                </a>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="{% url 'services' %}" class="nav-link ">Services</a>
+                                <ul class="dropdown-menu">
+                                    <!-- <li class="nav-item d-block d-md-none">
+                                        <a href="{% url 'services' %}" class="nav-link">Services</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a href="{% url 'aiml' %}" class="nav-link">AI / ML</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'odoo' %}" class="nav-link">Odoo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'python' %}" class="nav-link">Python</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="{% url 'robotic' %}" class="nav-link">Robotic Process</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'consulting' %}" class="nav-link">Business Consulting</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'bi' %}" class="nav-link">Business Intelligence</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'hire' %}" class="nav-link">Hire Dedicated Resources</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="{% url 'pwa' %}" class="nav-link">PWA development</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{% url 'technology' %}" class="nav-link dropdown-toggle">Technology</a>
+                                <ul class="dropdown-menu">
+                                    <!-- <li class="nav-item d-block d-md-none">
+                                        <a href="{% url 'technology' %}" class="nav-link">Services</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a href="{% url 'ai' %}" class="nav-link">AI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'rpa' %}" class="nav-link">RPA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'pythontech' %}" class="nav-link">Python</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="{% url 'django' %}" class="nav-link">Django</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'golang' %}" class="nav-link">Golang</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'flutter' %}" class="nav-link">Flutter</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{% url 'react' %}" class="nav-link">React Js</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        <li class="nav-item">
+                            <a href="{% url 'blog' %}" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'aboutus' %}" class="nav-link dropdown-toggle">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'contactus' %}" class="nav-link">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+{% block content %}
+
+{% endblock content %}
+
+
+<script src="static/js/jquery.min.js"></script>
+
+<script src="static/js/bootstrap.bundle.min.js"></script>
+
+<script src="static/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="static/js/form-validator.min.js"></script>
+
+<script src="static/js/contact-form-script.js"></script>
+
+<script src="static/js/owl.carousel.min.js"></script>
+
+<script src="static/js/jquery.magnific-popup.min.js"></script>
+
+<script src="static/js/jquery.mixitup.min.js"></script>
+
+<script src="static/js/meanmenu.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="static/js/custom.js"></script>
+
+</html>

@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "django_settings": "Tecblicnew.settings",
+        "aws_region": "ap-south-1",
+        "profile_name": "vaibhav-tecblic-serverless",
+        "project_name": "tecblic-website",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-23qrd9wub"
+    },
+    "staging": {
+        "django_settings": "Tecblicnew.settings",
+        "aws_region": "ap-south-1",
+        "profile_name": "vaibhav-tecblic-serverless",
+        "project_name": "tecblic-website",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-23qrd9wub"
+    },
+    "production": {
+        "django_settings": "Tecblicnew.settings",
+        "aws_region": "ap-south-1",
+        "profile_name": "vaibhav-tecblic-serverless",
+        "project_name": "tecblic-website",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-23qrd9wub"
+    }
+}
