@@ -184,12 +184,9 @@ EMAIL_USE_TLS=True
 EMAIL_HOST_USER='sales@tecblic.com'
 EMAIL_HOST_PASSWORD='C@ntbre@k@#7459'
 
-MYTESTING='C@ntbre@k@#7459'
-MYTESTING123='C@ntbre@k@#7459'
 
-
-# Custom Message Showing DEV
-
+# My new message showing LAST OF US
+# Custom Message Showing LAST1
 MESSAGE_TAGS = {
         messages.DEBUG: 'alert-secondary',
         messages.INFO: 'alert-info',
