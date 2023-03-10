@@ -188,6 +188,7 @@ EMAIL_HOST_PASSWORD='C@ntbre@k@#7459'
 # My new message showing LAST OF US
 # Custom Message Showing LAST1
 # Custom Message Showing LAST2
+# Custom Message Showing LAST3
 MESSAGE_TAGS = {
         messages.DEBUG: 'alert-secondary',
         messages.INFO: 'alert-info',
