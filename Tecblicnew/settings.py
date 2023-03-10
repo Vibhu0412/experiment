@@ -185,8 +185,8 @@ EMAIL_HOST_USER='sales@tecblic.com'
 EMAIL_HOST_PASSWORD='C@ntbre@k@#7459'
 
 
+# My new message showing LAST OF US
 # Custom Message Showing DEV
-# Custom Message Showing DEV1
 MESSAGE_TAGS = {
         messages.DEBUG: 'alert-secondary',
         messages.INFO: 'alert-info',
