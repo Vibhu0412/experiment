@@ -184,6 +184,9 @@ EMAIL_USE_TLS=True
 EMAIL_HOST_USER='sales@tecblic.com'
 EMAIL_HOST_PASSWORD='C@ntbre@k@#7459'
 
+MYTESTING='C@ntbre@k@#7459'
+MYTESTING123='C@ntbre@k@#7459'
+
 
 # Custom Message Showing DEV
 
